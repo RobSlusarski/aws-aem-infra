@@ -1,5 +1,5 @@
-resource "aws_s3bucket" "bucket" {
-    bucket = "cicd_test_bucket"
+resource "aws_s3_bucket" "bucket" {
+    bucket = "cicd-test-bucket-aem-infra"
     acl = "private"
 
     tags = {
