@@ -6,6 +6,6 @@ variable dockerhub_password {
     type = string
 }
 
-variable codestar_connector {
-    type = string
-}
+#variable codestar_connector {
+#    type = string
+#}
