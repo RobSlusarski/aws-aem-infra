@@ -1,0 +1,7 @@
+@@startuml
+actor user
+participant Git
+
+user -> Git: Send http request
+
+@@enduml
